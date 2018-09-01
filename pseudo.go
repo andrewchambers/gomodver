@@ -32,7 +32,7 @@
 // If the most recent tagged version before the target commit is vX.Y.Z-pre or vX.Y.Z-pre+incompatible,
 // then the pseudo-version uses form (4) or (5), making it a slightly later prerelease.
 
-package modfetch
+package gomodver
 
 import (
 	"fmt"
